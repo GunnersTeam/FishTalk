@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "CatchesViewController.h"
+#import "FriendsViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,53 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    //UIStoryboard* storyboard;
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"user"])
+    {
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        UITabBarController* tabBarController = [storyboard instantiateViewControllerWithIdentifier:@"TabVC"];
+        
+        UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+        navigationController.navigationBarHidden = YES;
+        
+        /*
+        storyboard = [UIStoryboard storyboardWithName:@"Home" bundle:[NSBundle mainBundle]];
+        HomeViewController* mainVC = [storyboard instantiateViewControllerWithIdentifier:@"home"];
+        
+        storyboard = [UIStoryboard storyboardWithName:@"Friends" bundle:[NSBundle mainBundle]];
+        FriendsViewController* friendsVC = [storyboard instantiateViewControllerWithIdentifier:@"friends"];
+        
+        storyboard = [UIStoryboard storyboardWithName:@"Catches" bundle:[NSBundle mainBundle]];
+        CatchesViewController* catchesVC = [storyboard instantiateViewControllerWithIdentifier:@"catches"];
+        
+        UITabBarController* tabBarController = [[UITabBarController alloc] init];
+        UINavigationController* navigationController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+        navigationController.navigationBarHidden = YES;
+        [tabBarController setViewControllers:[NSArray arrayWithObjects:mainVC, friendsVC, catchesVC, nil]];
+        
+        [[tabBarController.tabBar.items objectAtIndex:0] setTitle:@"Home"];
+        [[tabBarController.tabBar.items objectAtIndex:1] setTitle:@"Friends"];
+        [[tabBarController.tabBar.items objectAtIndex:2] setTitle:@"Catches"];
+//        [[tabBarController.tabBar.items objectAtIndex:3] setTitle:@"Locations"];
+        
+        [[tabBarController.tabBar.items objectAtIndex:0] setImage:[UIImage imageNamed:@"Home"]];
+        [[tabBarController.tabBar.items objectAtIndex:0] setSelectedImage:[UIImage imageNamed:@"HomeSelected"]];
+        [[tabBarController.tabBar.items objectAtIndex:1] setImage:[UIImage imageNamed:@"Friends"]];
+        [[tabBarController.tabBar.items objectAtIndex:1] setSelectedImage:[UIImage imageNamed:@"FriendsSelected"]];
+        [[tabBarController.tabBar.items objectAtIndex:2] setImage:[UIImage imageNamed:@"Catches"]];
+        [[tabBarController.tabBar.items objectAtIndex:2] setSelectedImage:[UIImage imageNamed:@"CatchesSelected"]];
+       */
+        [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"buttom bar3.png"]];
+        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]} forState:UIControlStateNormal];
+        [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:42.0/255.0 green:205.0/255.0 blue:255.0/255.0 alpha:1.0]} forState:UIControlStateSelected];
+        
+        [tabBarController setSelectedIndex:0];
+        
+        self.window.rootViewController = navigationController;
+        [self.window makeKeyAndVisible];
+    }
+    
     return YES;
 }
 

@@ -7,10 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0903DD901CC4EB21001595FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0903DD8F1CC4EB21001595FF /* Main.storyboard */; };
+		090C31D71CC13C63000C9975 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 090C31D61CC13C63000C9975 /* MBProgressHUD.m */; };
+		A72DF8E81CC7F2FD00AFD6C4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A72DF8E71CC7F2FD00AFD6C4 /* Podfile */; };
+		B724C345729F7D6416B94F00 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8DB7A1B23980672D3C5BDB /* libPods.a */; };
+		EEF900061C845A1C00AE096E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900021C845A1C00AE096E /* arrow.png */; };
+		EEF900071C845A1C00AE096E /* back ground.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900031C845A1C00AE096E /* back ground.png */; };
+		EEF900081C845A1C00AE096E /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900041C845A1C00AE096E /* facebook.png */; };
+		EEF900091C845A1C00AE096E /* log in box.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900051C845A1C00AE096E /* log in box.png */; };
+		EEF9000B1C845BD900AE096E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9000A1C845BD900AE096E /* logo.png */; };
+		EEF9000E1C8461CC00AE096E /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9000D1C8461CC00AE096E /* MainScreenViewController.m */; };
+		EEF900191C846B6C00AE096E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF900181C846B6C00AE096E /* HomeViewController.m */; };
+		EEF9001C1C846B7C00AE096E /* CatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9001B1C846B7C00AE096E /* CatchesViewController.m */; };
+		EEF9001F1C846BAF00AE096E /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9001E1C846BAF00AE096E /* FriendsViewController.m */; };
+		EEF900221C84770400AE096E /* add button.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900211C84770400AE096E /* add button.png */; };
+		EEF900251C8478C700AE096E /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF900241C8478C700AE096E /* HomeCollectionViewCell.m */; };
+		EEF900271C8479B700AE096E /* profile pic.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900261C8479B700AE096E /* profile pic.png */; };
+		EEF900291C8479DD00AE096E /* pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900281C8479DD00AE096E /* pic1.png */; };
+		EEF9002C1C847F6F00AE096E /* FriendsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9002B1C847F6F00AE096E /* FriendsTableViewCell.m */; };
+		EEF9002F1C8485B800AE096E /* CatchesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9002E1C8485B800AE096E /* CatchesCollectionViewCell.m */; };
+		EEF900341C8487FF00AE096E /* like icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900311C8487FF00AE096E /* like icon.png */; };
+		EEF900351C8487FF00AE096E /* pic.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900321C8487FF00AE096E /* pic.png */; };
+		EEF900361C8487FF00AE096E /* profile picpng.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900331C8487FF00AE096E /* profile picpng.png */; };
+		EEF900381C848A9900AE096E /* trans_backGround.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900371C848A9900AE096E /* trans_backGround.png */; };
+		EEF9003A1C848E8500AE096E /* buttom bar3.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900391C848E8500AE096E /* buttom bar3.png */; };
+		EEF9003D1C84998D00AE096E /* cover.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9003B1C84998D00AE096E /* cover.png */; };
+		EEF9003E1C84998D00AE096E /* loogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9003C1C84998D00AE096E /* loogo2.png */; };
+		EEF900401C84A08200AE096E /* Untitled-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF9003F1C84A08200AE096E /* Untitled-2.png */; };
+		EEF900431C84A82200AE096E /* AddCatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF900421C84A82200AE096E /* AddCatchViewController.m */; };
+		EEF900451C84B3B600AE096E /* addImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EEF900441C84B3B600AE096E /* addImage.png */; };
 		EEF9FFCC1C844C4600AE096E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9FFCB1C844C4600AE096E /* main.m */; };
 		EEF9FFCF1C844C4600AE096E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9FFCE1C844C4600AE096E /* AppDelegate.m */; };
-		EEF9FFD21C844C4600AE096E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9FFD11C844C4600AE096E /* ViewController.m */; };
-		EEF9FFD51C844C4600AE096E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF9FFD31C844C4600AE096E /* Main.storyboard */; };
 		EEF9FFD71C844C4600AE096E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF9FFD61C844C4600AE096E /* Assets.xcassets */; };
 		EEF9FFDA1C844C4600AE096E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF9FFD81C844C4600AE096E /* LaunchScreen.storyboard */; };
 		EEF9FFE51C844C4600AE096E /* FishTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9FFE41C844C4600AE096E /* FishTalkTests.m */; };
@@ -35,13 +62,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0903DD8F1CC4EB21001595FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		090C31D51CC13C63000C9975 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		090C31D61CC13C63000C9975 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A72DF8E71CC7F2FD00AFD6C4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		AB8DB7A1B23980672D3C5BDB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27C2C112D34AC734E06CD40 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EEF900021C845A1C00AE096E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		EEF900031C845A1C00AE096E /* back ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back ground.png"; sourceTree = "<group>"; };
+		EEF900041C845A1C00AE096E /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		EEF900051C845A1C00AE096E /* log in box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "log in box.png"; sourceTree = "<group>"; };
+		EEF9000A1C845BD900AE096E /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		EEF9000C1C8461CC00AE096E /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		EEF9000D1C8461CC00AE096E /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		EEF900171C846B6C00AE096E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EEF900181C846B6C00AE096E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EEF9001A1C846B7C00AE096E /* CatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchesViewController.h; sourceTree = "<group>"; };
+		EEF9001B1C846B7C00AE096E /* CatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchesViewController.m; sourceTree = "<group>"; };
+		EEF9001D1C846BAF00AE096E /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		EEF9001E1C846BAF00AE096E /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		EEF900211C84770400AE096E /* add button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add button.png"; sourceTree = "<group>"; };
+		EEF900231C8478C700AE096E /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		EEF900241C8478C700AE096E /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		EEF900261C8479B700AE096E /* profile pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile pic.png"; sourceTree = "<group>"; };
+		EEF900281C8479DD00AE096E /* pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic1.png; sourceTree = "<group>"; };
+		EEF9002A1C847F6F00AE096E /* FriendsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableViewCell.h; sourceTree = "<group>"; };
+		EEF9002B1C847F6F00AE096E /* FriendsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableViewCell.m; sourceTree = "<group>"; };
+		EEF9002D1C8485B800AE096E /* CatchesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatchesCollectionViewCell.h; sourceTree = "<group>"; };
+		EEF9002E1C8485B800AE096E /* CatchesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatchesCollectionViewCell.m; sourceTree = "<group>"; };
+		EEF900311C8487FF00AE096E /* like icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like icon.png"; sourceTree = "<group>"; };
+		EEF900321C8487FF00AE096E /* pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic.png; sourceTree = "<group>"; };
+		EEF900331C8487FF00AE096E /* profile picpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile picpng.png"; sourceTree = "<group>"; };
+		EEF900371C848A9900AE096E /* trans_backGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trans_backGround.png; sourceTree = "<group>"; };
+		EEF900391C848E8500AE096E /* buttom bar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttom bar3.png"; sourceTree = "<group>"; };
+		EEF9003B1C84998D00AE096E /* cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cover.png; sourceTree = "<group>"; };
+		EEF9003C1C84998D00AE096E /* loogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loogo2.png; sourceTree = "<group>"; };
+		EEF9003F1C84A08200AE096E /* Untitled-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-2.png"; sourceTree = "<group>"; };
+		EEF900411C84A82200AE096E /* AddCatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCatchViewController.h; sourceTree = "<group>"; };
+		EEF900421C84A82200AE096E /* AddCatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCatchViewController.m; sourceTree = "<group>"; };
+		EEF900441C84B3B600AE096E /* addImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addImage.png; sourceTree = "<group>"; };
 		EEF9FFC71C844C4600AE096E /* FishTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF9FFCB1C844C4600AE096E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEF9FFCD1C844C4600AE096E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEF9FFCE1C844C4600AE096E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEF9FFD01C844C4600AE096E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EEF9FFD11C844C4600AE096E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EEF9FFD41C844C4600AE096E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEF9FFD61C844C4600AE096E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEF9FFD91C844C4600AE096E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEF9FFDB1C844C4600AE096E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +114,7 @@
 		EEF9FFEB1C844C4600AE096E /* FishTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FishTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF9FFEF1C844C4600AE096E /* FishTalkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FishTalkUITests.m; sourceTree = "<group>"; };
 		EEF9FFF11C844C4600AE096E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67233B75615C64A62D5C375 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B724C345729F7D6416B94F00 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +143,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090C31D41CC13C46000C9975 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				090C31D51CC13C63000C9975 /* MBProgressHUD.h */,
+				090C31D61CC13C63000C9975 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		21330E67C1BACD0CC76B0BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DB7A1B23980672D3C5BDB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37D56AEF6716F3401D4150AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F67233B75615C64A62D5C375 /* Pods.debug.xcconfig */,
+				E27C2C112D34AC734E06CD40 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEF900011C845A1C00AE096E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EEF900391C848E8500AE096E /* buttom bar3.png */,
+				EEF9000A1C845BD900AE096E /* logo.png */,
+				EEF900021C845A1C00AE096E /* arrow.png */,
+				EEF900031C845A1C00AE096E /* back ground.png */,
+				EEF900041C845A1C00AE096E /* facebook.png */,
+				EEF900051C845A1C00AE096E /* log in box.png */,
+				EEF900371C848A9900AE096E /* trans_backGround.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		EEF9000F1C846A8A00AE096E /* Catches */ = {
+			isa = PBXGroup;
+			children = (
+				EEF900301C8487FF00AE096E /* Images */,
+				EEF9001A1C846B7C00AE096E /* CatchesViewController.h */,
+				EEF9001B1C846B7C00AE096E /* CatchesViewController.m */,
+				EEF9002D1C8485B800AE096E /* CatchesCollectionViewCell.h */,
+				EEF9002E1C8485B800AE096E /* CatchesCollectionViewCell.m */,
+			);
+			path = Catches;
+			sourceTree = "<group>";
+		};
+		EEF900101C846A8A00AE096E /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9001D1C846BAF00AE096E /* FriendsViewController.h */,
+				EEF9001E1C846BAF00AE096E /* FriendsViewController.m */,
+				EEF9002A1C847F6F00AE096E /* FriendsTableViewCell.h */,
+				EEF9002B1C847F6F00AE096E /* FriendsTableViewCell.m */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		EEF900201C84770400AE096E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EEF900441C84B3B600AE096E /* addImage.png */,
+				EEF9003F1C84A08200AE096E /* Untitled-2.png */,
+				EEF9003B1C84998D00AE096E /* cover.png */,
+				EEF9003C1C84998D00AE096E /* loogo2.png */,
+				EEF900281C8479DD00AE096E /* pic1.png */,
+				EEF900261C8479B700AE096E /* profile pic.png */,
+				EEF900211C84770400AE096E /* add button.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EEF900301C8487FF00AE096E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EEF900311C8487FF00AE096E /* like icon.png */,
+				EEF900321C8487FF00AE096E /* pic.png */,
+				EEF900331C8487FF00AE096E /* profile picpng.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		EEF9FFBE1C844C4500AE096E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +237,8 @@
 				EEF9FFE31C844C4600AE096E /* FishTalkTests */,
 				EEF9FFEE1C844C4600AE096E /* FishTalkUITests */,
 				EEF9FFC81C844C4600AE096E /* Products */,
+				37D56AEF6716F3401D4150AD /* Pods */,
+				21330E67C1BACD0CC76B0BE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +255,19 @@
 		EEF9FFC91C844C4600AE096E /* FishTalk */ = {
 			isa = PBXGroup;
 			children = (
+				090C31D41CC13C46000C9975 /* MBProgressHUD */,
 				EEF9FFCD1C844C4600AE096E /* AppDelegate.h */,
 				EEF9FFCE1C844C4600AE096E /* AppDelegate.m */,
-				EEF9FFD01C844C4600AE096E /* ViewController.h */,
-				EEF9FFD11C844C4600AE096E /* ViewController.m */,
-				EEF9FFD31C844C4600AE096E /* Main.storyboard */,
+				EEF9FFFE1C844F4F00AE096E /* Login & Register */,
+				EEF9FFFD1C844F4F00AE096E /* Home */,
+				EEF900101C846A8A00AE096E /* Friends */,
+				EEF9000F1C846A8A00AE096E /* Catches */,
 				EEF9FFD61C844C4600AE096E /* Assets.xcassets */,
 				EEF9FFD81C844C4600AE096E /* LaunchScreen.storyboard */,
 				EEF9FFDB1C844C4600AE096E /* Info.plist */,
 				EEF9FFCA1C844C4600AE096E /* Supporting Files */,
+				0903DD8F1CC4EB21001595FF /* Main.storyboard */,
+				A72DF8E71CC7F2FD00AFD6C4 /* Podfile */,
 			);
 			path = FishTalk;
 			sourceTree = "<group>";
@@ -140,6 +298,30 @@
 			path = FishTalkUITests;
 			sourceTree = "<group>";
 		};
+		EEF9FFFD1C844F4F00AE096E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEF900201C84770400AE096E /* Images */,
+				EEF900171C846B6C00AE096E /* HomeViewController.h */,
+				EEF900181C846B6C00AE096E /* HomeViewController.m */,
+				EEF900411C84A82200AE096E /* AddCatchViewController.h */,
+				EEF900421C84A82200AE096E /* AddCatchViewController.m */,
+				EEF900231C8478C700AE096E /* HomeCollectionViewCell.h */,
+				EEF900241C8478C700AE096E /* HomeCollectionViewCell.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EEF9FFFE1C844F4F00AE096E /* Login & Register */ = {
+			isa = PBXGroup;
+			children = (
+				EEF900011C845A1C00AE096E /* images */,
+				EEF9000C1C8461CC00AE096E /* MainScreenViewController.h */,
+				EEF9000D1C8461CC00AE096E /* MainScreenViewController.m */,
+			);
+			path = "Login & Register";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEF9FFF41C844C4600AE096E /* Build configuration list for PBXNativeTarget "FishTalk" */;
 			buildPhases = (
+				F9266A42C409AED57478F9AF /* Check Pods Manifest.lock */,
 				EEF9FFC31C844C4600AE096E /* Sources */,
 				EEF9FFC41C844C4600AE096E /* Frameworks */,
 				EEF9FFC51C844C4600AE096E /* Resources */,
+				8EFCE53661675BE83A342A0C /* Embed Pods Frameworks */,
+				060C884300324460BAB0178D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +392,7 @@
 				TargetAttributes = {
 					EEF9FFC61C844C4600AE096E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = EC9SN5W46D;
 					};
 					EEF9FFDF1C844C4600AE096E = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,9 +429,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF900091C845A1C00AE096E /* log in box.png in Resources */,
+				EEF900271C8479B700AE096E /* profile pic.png in Resources */,
+				0903DD901CC4EB21001595FF /* Main.storyboard in Resources */,
+				EEF9003A1C848E8500AE096E /* buttom bar3.png in Resources */,
+				EEF900221C84770400AE096E /* add button.png in Resources */,
+				EEF900361C8487FF00AE096E /* profile picpng.png in Resources */,
+				EEF9003D1C84998D00AE096E /* cover.png in Resources */,
+				EEF900451C84B3B600AE096E /* addImage.png in Resources */,
+				EEF900081C845A1C00AE096E /* facebook.png in Resources */,
+				EEF900401C84A08200AE096E /* Untitled-2.png in Resources */,
+				EEF900351C8487FF00AE096E /* pic.png in Resources */,
 				EEF9FFDA1C844C4600AE096E /* LaunchScreen.storyboard in Resources */,
+				A72DF8E81CC7F2FD00AFD6C4 /* Podfile in Resources */,
+				EEF9003E1C84998D00AE096E /* loogo2.png in Resources */,
+				EEF9000B1C845BD900AE096E /* logo.png in Resources */,
 				EEF9FFD71C844C4600AE096E /* Assets.xcassets in Resources */,
-				EEF9FFD51C844C4600AE096E /* Main.storyboard in Resources */,
+				EEF900381C848A9900AE096E /* trans_backGround.png in Resources */,
+				EEF900071C845A1C00AE096E /* back ground.png in Resources */,
+				EEF900291C8479DD00AE096E /* pic1.png in Resources */,
+				EEF900061C845A1C00AE096E /* arrow.png in Resources */,
+				EEF900341C8487FF00AE096E /* like icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +469,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		060C884300324460BAB0178D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFCE53661675BE83A342A0C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9266A42C409AED57478F9AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEF9FFC31C844C4600AE096E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEF9FFD21C844C4600AE096E /* ViewController.m in Sources */,
+				EEF9001F1C846BAF00AE096E /* FriendsViewController.m in Sources */,
+				EEF9000E1C8461CC00AE096E /* MainScreenViewController.m in Sources */,
+				EEF900431C84A82200AE096E /* AddCatchViewController.m in Sources */,
 				EEF9FFCF1C844C4600AE096E /* AppDelegate.m in Sources */,
+				090C31D71CC13C63000C9975 /* MBProgressHUD.m in Sources */,
 				EEF9FFCC1C844C4600AE096E /* main.m in Sources */,
+				EEF9002F1C8485B800AE096E /* CatchesCollectionViewCell.m in Sources */,
+				EEF900251C8478C700AE096E /* HomeCollectionViewCell.m in Sources */,
+				EEF9001C1C846B7C00AE096E /* CatchesViewController.m in Sources */,
+				EEF900191C846B6C00AE096E /* HomeViewController.m in Sources */,
+				EEF9002C1C847F6F00AE096E /* FriendsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +568,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EEF9FFD31C844C4600AE096E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEF9FFD41C844C4600AE096E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEF9FFD81C844C4600AE096E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -344,7 +596,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -363,9 +616,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "e328654a-d42b-4901-af82-7605ed67692f";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +641,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -400,8 +655,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "e328654a-d42b-4901-af82-7605ed67692f";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,23 +665,35 @@
 		};
 		EEF9FFF51C844C4600AE096E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67233B75615C64A62D5C375 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				INFOPLIST_FILE = FishTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spellad.FishTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e328654a-d42b-4901-af82-7605ed67692f";
 			};
 			name = Debug;
 		};
 		EEF9FFF61C844C4600AE096E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27C2C112D34AC734E06CD40 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: HJMT Solutions PTY LTD (EC9SN5W46D)";
 				INFOPLIST_FILE = FishTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.spellad.FishTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e328654a-d42b-4901-af82-7605ed67692f";
 			};
 			name = Release;
 		};
@@ -496,6 +764,7 @@
 				EEF9FFF61C844C4600AE096E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEF9FFF71C844C4600AE096E /* Build configuration list for PBXNativeTarget "FishTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +773,7 @@
 				EEF9FFF91C844C4600AE096E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEF9FFFA1C844C4600AE096E /* Build configuration list for PBXNativeTarget "FishTalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +782,7 @@
 				EEF9FFFC1C844C4600AE096E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
